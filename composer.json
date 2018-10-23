@@ -1,0 +1,23 @@
+{
+    "name": "sien/msframe",
+    "description": "a simple php framework",
+    "type": "project",
+    "license": "n",
+    "authors": [
+        {
+            "name": "sien",
+            "email": "sangshu.sun@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "predis/predis":"1.1.*"
+    },
+    "autoload":{
+        "psr-4":{
+            "sf\\":"src/",
+            "app\\":""
+        }
+    }
+
+}
